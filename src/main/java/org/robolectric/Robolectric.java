@@ -1304,7 +1304,6 @@ public class Robolectric {
     ShadowStatFs.reset();
     ShadowTypeface.reset();
     ShadowCursorWindow.reset();
-    //ShadowSQLiteConnection.reset();
   }
 
   public static <T extends Activity> ActivityController<T> buildActivity(Class<T> activityClass) {
